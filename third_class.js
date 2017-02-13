@@ -34,7 +34,7 @@ noiseArray.unshift("claps"); //Add to the beginning of Array
 //bracket notation
 noiseArray[3]="beep";
 //equivalent for last index. in this case [4] (remember .length starts at 1 and indexes at 0)
-noiseArray[noiseArray.length]="knock knock after beep"
+noiseArray[noiseArray.length]="knock knock after beep";
 
 //just to check this in console (inspecting)
 for(var a = 0; a < noiseArray.length; a++){
@@ -62,7 +62,7 @@ var quackers = { username: 'DaffyDuck', tagline: 'Yippeee!', noises: ['quack', '
 //Add two noises to the end of the Array with two different methods
 
 noisesArray.push('extra oink 1');
-noisesArray.[noiseArray.length]='extra oink 2';
+noisesArray.[noiseArray.length]="extra oink 2";
 
 //Nest this array into the animal noises: property
 animal.noises=noiseArray;
