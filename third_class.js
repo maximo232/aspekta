@@ -62,7 +62,7 @@ var quackers = { username: 'DaffyDuck', tagline: 'Yippeee!', noises: ['quack', '
 //Add two noises to the end of the Array with two different methods
 
 noisesArray.push('extra oink 1');
-noisesArray.[noiseArray.length]="extra oink 2";
+noisesArray[noiseArray.length]="extra oink 2";
 
 //Nest this array into the animal noises: property
 animal.noises=noiseArray;
